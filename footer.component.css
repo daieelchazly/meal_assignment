@@ -1,0 +1,13 @@
+
+  .footer {
+    color: white; /* Ensures all text in the footer is white */
+  }
+  
+  .footer a {
+    color: white; /* Ensures links are white */
+    text-decoration: none; /* Removes underline from links */
+  }
+  
+  .footer a:hover {
+    color: #cccccc; /* Light gray on hover */
+  }

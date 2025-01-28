@@ -1,0 +1,70 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+<section class="portfolio-section py-5 bg-light min-vh-100"> <!-- Added min-vh-100 to fill the height -->
+    <div class="container-fluid"> <!-- Changed to container-fluid for full width -->
+      <!-- Heading -->
+      <h2 class="text-center text-uppercase mb-4 fs-xl fw-bolder"> CONTACT SECTION</h2>
+  
+      <!-- Star Divider -->
+      <div class="text-center mb-4">
+        <div class="line-star bg-dark"></div>
+        <i class="fas fa-star fa-xl px-3"></i>
+        <div class="line-star bg-dark"></div>
+      </div>
+
+<form class="w-50 mx-auto mt-4">
+    <label
+     [class.__one]="!userName" 
+     for="userName"
+      class="position-relative top-0">userName : 
+    </label>
+
+    <input 
+    id="userName"
+    type="text"
+    class="form-control border-bottom py-3 position-relative"
+    placeholder="userName"
+    name="userName"
+    [(ngModel)]="userName"
+    
+    />
+
+
+    <label  [class.__one]="!userAge"  for="userAge" class="position-relative top-0">userAge : </label>
+    <input 
+    id="userAge"
+    type="number"
+    class="form-control border-bottom py-3 position-relative"
+    placeholder="userAge"
+    name="userAge"
+    [(ngModel)]="userAge"
+    
+    />
+
+    <label   [class.__one]="!userEmail"  for="userEmail" class="position-relative top-0">userEmail : </label>
+    <input 
+    id="userEmail"
+    type="email"
+    class="form-control border-bottom py-3 position-relative"
+    placeholder="userEmail"
+    name="userEmail"
+    [(ngModel)]="userEmail"
+   
+    
+    />
+    <label  [class.__one]="!userPassword" for="userPassword" class="position-relative top-0">userPassword : </label>
+    <input 
+    id="userPassword"
+    type="password"
+    class="form-control border-bottom py-3 position-relative"
+    placeholder="userPassword"
+    name="userPassword"
+    [(ngModel)]="userPassword"
+   
+    
+    />
+
+
+
+
+</form>
